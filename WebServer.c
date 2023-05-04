@@ -157,7 +157,6 @@ void web_server(char *dir){
         //create new thread for file operation
         pthread_t id;
         pthread_create(&id, NULL, thread_caller, params);
-        sleep(1);
     }
 }
 
