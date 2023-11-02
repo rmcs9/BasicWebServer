@@ -1,7 +1,7 @@
 # BasicWebServer
 Basic web server in C that takes an HTTP request for a file and sends back a HTTP response including the content of the file. 
 
-## Methods:
+## Functions:
 - **void web_server(char *dir)**: <br>
 opens up a new webserver at the current IP and listens for connections in a loop. If a new connection is found, a new thread is created to accept a request from the connected client. <br>
 - **void *thread_caller(void *params)**: <br> 
